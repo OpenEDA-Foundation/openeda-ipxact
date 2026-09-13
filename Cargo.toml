@@ -1,0 +1,15 @@
+﻿[workspace]
+resolver = "3"
+members = [
+    "crates/ipxact-core",
+    "crates/ipxact-xml",
+    "crates/ipxact-validation",
+    "crates/ipxact-operations",
+    "apps/ipxact-cli",
+]
+
+[workspace.package]
+edition = "2024"
+license = "Apache-2.0"
+repository = "https://github.com/OpenEDA-Foundation/openeda-ipxact"
+rust-version = "1.85"
